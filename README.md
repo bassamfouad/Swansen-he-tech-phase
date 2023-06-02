@@ -1,34 +1,49 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# SwensonHe Tech Interview Task
 
-## Getting Started
+This task is created for the tech interview process at SwensonHe. It is a Next.js application built with Tailwind CSS.
 
-First, run the development server:
+## Project Overview
 
-```bash
-npm run dev
-# or
-yarn dev
+The project was initially set up with TypeScript, but the files are registered as JSX files. The main page of the application includes a text message greeting for interviewers. On the left sidebar, you will find the navigation for the different questions with answers .
+ 
+## Technologies Used
+
+- Next.js: A React framework for building server-rendered applications.
+- Tailwind CSS: A utility-first CSS framework for rapidly building custom user interfaces.
+
+## Installation
+
+To run the project locally, follow these steps:
+
+1. Clone the repository: `git clone https://github.com/bassamfouad/Swansen-he-tech-phase`
+2. Navigate to the project directory: `cd Swansen-he-tech-phase`
+3. Install the dependencies: `npm install`
+4. Start the development server: `npm run dev`
+5. Open your browser and visit: `http://localhost:3000`
+
+## Project Structure
+
+The project structure is as follows:
+
+```
+- pages/         # Next.js pages
+  - index.jsx    # Main page with the greeting message
+  - question1.jsx    # Page for Question 1
+  - question2.jsx    # Page for Question 2
+  - question3.jsx    # Page for Question 3
+  - question4.jsx    # Page for Question 4
+  
+- components/    # Reusable components
+- styles/        # Custom styles and Tailwind CSS configuration
+- public/        # Static assets
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Contact
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+If you have any questions or feedback regarding this task, feel free to reach out. You can contact me at [your-email@example.com].
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Thank you for your time and consideration!
+All rights reserved to SwensonHe.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Bassam Fouad
