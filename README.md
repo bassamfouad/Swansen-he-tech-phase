@@ -40,7 +40,7 @@ The project structure is as follows:
 
 ## Contact
 
-If you have any questions or feedback regarding this task, feel free to reach out. You can contact me at [your-email@example.com].
+If you have any questions or feedback regarding this task, feel free to reach out. You can contact me at Bassamfoaud@gmail.com.
 
 Thank you for your time and consideration!
 All rights reserved to SwensonHe.
