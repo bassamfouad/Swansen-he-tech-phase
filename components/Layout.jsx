@@ -1,0 +1,17 @@
+import React from "react";
+import Sidebar from "./Sidebar";
+
+const Layout = ({ children }) => {
+  return (
+    <div className="container mx-auto">
+      <div className="h-screen flex flex-row justify-start ">
+        <Sidebar />
+        <div className="bg-primary flex-1 p-4 text-white overflow-scroll overflow-x-hidden">
+          {children}
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Layout;
